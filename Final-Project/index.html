@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster - Test Your Programming Knowledge</title>
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <header>
+            <h1>QuizMaster</h1>
+        </header>
+
+        <main class="quiz-card">
+            <div id="start-screen" class="screen active">
+                <h2>Ready to challenge yourself?</h2>
+                <p>Customize your quiz settings below:</p>
+
+                <div class="settings-container">
+                    <div class="form-group">
+                        <label for="category">Category</label>
+                        <select id="category">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="C">C</option>
+                            <option value="Python">Python</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="difficulty">Difficulty</label>
+                        <select id="difficulty">
+                            <option value="Easy">Easy</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Hard">Hard</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="amount">Questions</label>
+                        <select id="amount">
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="start-btn" class="btn primary-btn">Start Quiz</button>
+            </div>
+
+            <div id="quiz-screen" class="screen">
+                <div class="progress-bar">
+                    <div id="progress" class="progress"></div>
+                </div>
+                <div class="question-header">
+                    <span id="question-number">Question 1 of 5</span>
+                    <span id="score-display">Score: 0</span>
+                </div>
+                <h2 id="question-text">Question goes here?</h2>
+                <div id="options-container" class="options-grid">
+                </div>
+                <div class="controls">
+                    <button id="next-btn" class="btn secondary-btn" disabled>Next Question</button>
+                </div>
+            </div>
+
+            <div id="result-screen" class="screen">
+                <div class="result-icon">🏆</div>
+                <h2>Quiz Completed!</h2>
+                <p class="score-text">You scored <span id="final-score">0</span> out of <span id="total-questions">0</span></p>
+                <p id="feedback-message">Great job!</p>
+                <button id="restart-btn" class="btn primary-btn">Play Again</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Built by Kankon Mondal</p>
+        </footer>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
