@@ -117,7 +117,7 @@ change y by (speed)
 
   <h2>📁 Directory Structure</h2>
   <pre>
-Week0/
+Week-00-Scratch/
 └── README.md
   </pre>
 

@@ -1,99 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-</head>
-<body>
+# 🎓 CS50x: Introduction to Computer Science
 
-  <h1>📘 CS50x-2025 by Kankon Mondal</h1>
-  <p>This repository contains my personal solutions, notes, and learning journey through <strong>Harvard University's CS50x: Introduction to Computer Science</strong>, offered via edX in 2025.</p>
+**Completed by Kankon Mondal in 2026**
 
-  <div class="section">
-    <h2>📖 Course Description</h2>
-    <p>
-      CS50x is Harvard's world-renowned introductory computer science course that teaches core programming fundamentals, problem-solving techniques, and computational thinking. 
-      The course uses C, Python, SQL, and JavaScript to introduce topics such as:
-    </p>
-    <ul>
-      <li>Algorithms & Data Structures</li>
-      <li>Memory & Abstraction</li>
-      <li>Web Development & Security</li>
-      <li>Software Engineering Principles</li>
-    </ul>
-  </div>
+[![CS50x Certificate](https://img.shields.io/badge/Certificate-Verified-success?style=for-the-badge&logo=harvard)](https://cs50.harvard.edu/certificates/658c719e-59a7-40a3-a2e9-f0b33d38dd83)
 
-  <div class="section">
-    <h2>🗂️ Folder Structure</h2>
-    <pre><code>CS50x-2025/
-├── Week0/          # Scratch
-├── Week1/          # C Basics & Logic
-├── Week2/          # Arrays & Memory
-├── Week3/          # Algorithms (Search/Sort)
-├── Week4/          # Memory & Pointers
-├── Week5/          # Data Structures
-├── Week6/          # Python
-├── Week7/          # SQL & Databases
-├── Week8/          # HTML, CSS, Flask
-├── Week9/          # JavaScript & DOM
-└── FinalProject/   # Capstone Project
-</code></pre>
-  </div>
+## 🌟 Overview
 
-  <div class="section">
-    <h2>📅 Weekly Progress Tracker</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Week</th>
-          <th>Topic</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Week 0</td><td>Scratch</td><td>✅ Completed</td></tr>
-        <tr><td>Week 1</td><td>C Basics</td><td>🔄 In Progress</td></tr>
-        <tr><td>Week 2</td><td>Arrays & Strings</td><td>⏳ Upcoming</td></tr>
-        <tr><td>Week 3–9</td><td>Algorithms, Python, Web Dev</td><td>🔒 Locked</td></tr>
-      </tbody>
-    </table>
-  </div>
+This repository contains my solutions, projects, and notes for **Harvard University's CS50x**, a comprehensive introduction to the intellectual enterprises of computer science and the art of programming.
 
-  <div class="section">
-    <h2>🧰 Tech Stack</h2>
-    <ul>
-      <li><strong>C Language:</strong> Memory, pointers, low-level logic</li>
-      <li><strong>Python:</strong> High-level scripting and problem-solving</li>
-      <li><strong>SQL:</strong> Data management and queries</li>
-      <li><strong>HTML, CSS, JS:</strong> Basic front-end and Flask web backend</li>
-    </ul>
-  </div>
+I have successfully completed all problem sets, labs, and the final project, earning a verified certificate from Harvard University.
 
-  <div class="section">
-    <h2>🛠️ Tools Used</h2>
-    <ul>
-      <li><a href="https://code.visualstudio.com/" target="_blank">VS Code</a> – Open Source Code Editor</li>
-      <li><a href="https://edx.org" target="_blank">edX Premium</a> – Verified certificate enrollment</li>
-      <li><a href="https://github.com" target="_blank">GitHub</a> – Version control and documentation</li>
-    </ul>
-  </div>
+## 🏆 Certificate
 
-  <div class="section">
-    <h2>📜 Certificate</h2>
-    <p>
-      I'm enrolled via <strong>Premium edX</strong>. Upon successful completion of all problem sets and the final project, I will earn a <strong>Verified Certificate</strong> from Harvard University through edX.
-    </p>
-  </div>
+<div align="center">
+  <a href="https://cs50.harvard.edu/certificates/658c719e-59a7-40a3-a2e9-f0b33d38dd83">
+    <img src="https://cs50.harvard.edu/certificates/658c719e-59a7-40a3-a2e9-f0b33d38dd83.png" alt="CS50x Certificate" width="600">
+    <br>
+    <em>Click to verify</em>
+  </a>
+</div>
 
-  <div class="note">
-    <strong>Ethical Note:</strong><br/>
-    All code and solutions are written by me for educational and documentation purposes only. Sharing answers is discouraged by the CS50 honor code. Please use this repo responsibly to aid your own learning.
-  </div>
+## 📚 Curriculum & Progress
 
-  <footer>
-    <p>Made with ❤️ by <strong>Kankon Mondal</strong> | KUET ECE Student | 2025</p>
-    <p>🔗 <a href="https://github.com/KankonNil007">GitHub Profile</a> | 💼 <a href="https://edx.org">edX Premium Learner</a></p>
-  </footer>
+| Week        | Topic                    | Status |
+| :---------- | :----------------------- | :----: |
+| **Week 0**  | Scratch 😺               |   ✅   |
+| **Week 1**  | C 🇨                      |   ✅   |
+| **Week 2**  | Arrays 📊                |   ✅   |
+| **Week 3**  | Algorithms 🧮            |   ✅   |
+| **Week 4**  | Memory 🧠                |   ✅   |
+| **Week 5**  | Data Structures 🌲       |   ✅   |
+| **Week 6**  | Python 🐍                |   ✅   |
+| **Week 7**  | SQL 🗃️                   |   ✅   |
+| **Week 8**  | HTML, CSS, JavaScript 🌐 |   ✅   |
+| **Week 9**  | Flask 🌶️                 |   ✅   |
+| **Week 10** | Cybersecurity 🔐         |   ✅   |
+| **Final**   | Final Project 🚀         |   ✅   |
 
-</body>
-</html>
+## 🛠️ Tech Stack
+
+Throughout this course, I have worked with a variety of languages and tools:
+
+- **Languages**: C, Python, SQL, HTML, CSS, JavaScript
+- **Frameworks & Libraries**: Flask, Bootstrap, Jinja2
+- **Tools**: Git, VS Code, SQLite, Valgrind, GDB
+
+## 📂 Repository Structure
+
+```
+CS50x-2026/
+├── Week-00-Scratch/    # Visual programming with Scratch
+├── Week-01-C/          # C basics, loops, conditions
+├── Week-02-Arrays/     # Compiling, debugging, arrays
+├── Week-03-Algorithms/ # Search & sort algorithms
+├── Week-04-Memory/     # Pointers, memory allocation
+├── Week-05-Data-Structures/ # Linked lists, trees, tries
+├── Week-06-Python/     # Python syntax & libraries
+├── Week-07-SQL/        # Database design & queries
+├── Week-08-HTML-CSS-JavaScript/ # Front-end web development
+├── Week-09-Flask/      # Back-end development with Flask
+└── Final-Project/      # Capstone web application
+```
+
+## 📜 Ethical Note
+
+All code in this repository is my own work, created for educational purposes. Please adhere to the [CS50 Academic Honesty](https://cs50.harvard.edu/x/2025/honesty/) policy. Do not copy solutions directly; use this code only as a reference for your own learning.
+
+---
+
+**Made with ❤️ by [Kankon Mondal](https://github.com/KankonNil007)**

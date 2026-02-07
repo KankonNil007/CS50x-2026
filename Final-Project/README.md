@@ -1,49 +1,110 @@
-# QuizMaster - Test Your Programming Knowledge
+# 🧠 QuizMaster: Test Your Programming Knowledge
 
-#### Video Demo:  https://youtu.be/chaY5raUvIw
+[![CS50x Final Project](https://img.shields.io/badge/CS50x-Final%20Project-red?style=for-the-badge&logo=harvard)](https://cs50.harvard.edu/x/2026/project/)
+[![Made with Love](https://img.shields.io/badge/Made%20with-Love-ff69b4?style=for-the-badge)](https://github.com/KankonNil007)
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
 
-## Description
-QuizMaster is an interactive and dynamic web-based quiz application designed to test and improve your programming knowledge. Whether you are a beginner or looking to sharpen your skills, QuizMaster offers a variety of categories and difficulty levels to suit your needs.
+> A dynamic, interactive, and visually stunning quiz application to test and improve your coding skills across multiple languages and difficulty levels.
 
-The application provides a clean, modern user interface with smooth animations and real-time feedback. Users can customize their quiz experience by selecting their preferred programming language, difficulty level, and the number of questions they wish to answer.
+---
 
-## Features
-- **Customizable Quiz Settings**:
-  - **Categories**: Choose from HTML, CSS, JavaScript, C, and Python.
-  - **Difficulty Levels**: Select from Easy, Medium, or Hard.
-  - **Question Count**: Choose to answer 5 or 10 questions per session.
-- **Dynamic Question Loading**: Questions are filtered and randomized based on user selection to ensure a unique experience every time.
-- **Real-time Progress Tracking**:
-  - **Progress Bar**: Visual indicator of how far you are in the quiz.
-  - **Score Display**: Live tracking of your current score.
-- **Instant Feedback**:
-  - Immediate visual feedback on correct and incorrect answers.
-  - Detailed result screen with a final score and a motivational message based on performance.
-- **Responsive Design**: Fully optimized for both desktop and mobile devices.
-- **Modern UI/UX**: Features glassmorphism effects, gradient backgrounds, and smooth transitions.
+## 📺 Video Demo
 
-## Technologies Used
-- **HTML5**: For the structure and semantic markup of the application.
-- **CSS3**: For styling, including modern features like Flexbox, Grid, CSS Variables, and Animations.
-- **JavaScript (ES6+)**: For the application logic, DOM manipulation, and dynamic content handling.
+**[Watch the Full Demo on YouTube](https://youtu.be/chaY5raUvIw)**
 
-## Project Structure
-- `index.html`: The main entry point of the application, containing the HTML structure.
-- `style.css`: Contains all the styling rules, variables, and animations.
-- `script.js`: Handles the core logic, event listeners, and game state management.
-- `questions.js`: A separate file containing the database of questions, organized by category and difficulty.
+---
 
-## How to Run
-1. Clone the repository or download the source code.
-2. Navigate to the project directory.
-3. Open `index.html` in your preferred web browser.
-4. Customize your settings and start the quiz!
+## 🚀 Overview
 
-## Future Improvements
-- Add more categories and questions.
-- Implement a timer for each question.
-- Save high scores using LocalStorage.
-- Add a "Review Answers" feature at the end of the quiz.
+**QuizMaster** is a modern web-based quiz application designed for developers of all levels. Whether you're a beginner learning the basics or a pro brushing up on syntax, QuizMaster provides a tailored experience.
 
-## Author
-Built by **Kankon Mondal** as a CS50x Final Project.
+Built with a focus on **User Experience (UX)**, it features glassmorphism aesthetics, smooth animations, and instant feedback loops to keep learning engaging.
+
+---
+
+## ✨ Key Features
+
+### 🎨 **Customizable Experience**
+
+- **Diverse Categories**: Choose from **HTML**, **CSS**, **JavaScript**, **C**, and **Python**.
+- **Difficulty Selection**: Challenge yourself with **Easy**, **Medium**, or **Hard** modes.
+- **Flexible Length**: Quick session? Choose **5 questions**. Deep dive? Go for **10**.
+
+### ⚡ **Dynamic & Interactive**
+
+- **Randomized Questions**: ensuring no two quiz sessions are exactly the same.
+- **Real-Time Feedback**: Instant visual cues for correct/incorrect answers.
+- **Live Progress Tracking**:
+  - 📊 **Progress Bar**: See how far you've come.
+  - 💯 **Live Score**: Watch your score grow as you play.
+
+### 📱 **Modern Design**
+
+- **Responsive Layout**: Seamlessly works on Desktop, Tablet, and Mobile.
+- **Visuals**: Gradient backgrounds, glassmorphism cards, and fluid transitions.
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology                                                                                                        | Purpose                                        |
+| :---------------------------------------------------------------------------------------------------------------- | :--------------------------------------------- |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)                | Structure and semantic markup                  |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)                   | Styling, Flexbox/Grid layouts, Animations      |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Game logic, DOM manipulation, State management |
+
+---
+
+## 📂 Project Structure
+
+```bash
+Final-Project/
+├── index.html      # 🏠 Main application entry point
+├── style.css       # 🎨 All styles, animations, and responsive rules
+├── script.js       # ⚙️ Core game logic and event handling
+├── questions.js    # 📚 Database of questions (JSON-like structure)
+└── README.md       # 📖 Project documentation
+```
+
+---
+
+## 🏁 How to Run Locally
+
+Get QuizMaster up and running on your local machine in seconds!
+
+1.  **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/KankonNil007/CS50x-2026.git
+    ```
+
+2.  **Navigate to the Project Folder**
+
+    ```bash
+    cd CS50x-2026/Final-Project
+    ```
+
+3.  **Launch the App**
+    - Simply open `index.html` in any modern web browser (Chrome, Edge, Firefox, Safari).
+    - _Optional_: Use VS Code's "Live Server" extension for the best development experience.
+
+---
+
+## 🔮 Future Improvements
+
+Here are some ideas I plan to implement to make QuizMaster even better:
+
+- [ ] ⏱️ **Timer Challenge**: Add a countdown timer for each question.
+- [ ] 🏆 **High Scores**: Save top scores using LocalStorage.
+- [ ] 📝 **Review Mode**: Allow users to review their wrong answers at the end.
+- [ ] 🌙 **Dark Mode**: Toggle between Light and Dark themes.
+
+---
+
+## 👨‍💻 Author
+
+**Kankon Mondal**
+<br>
+_CS50x 2026 Graduate | Student at KUET ECE_
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KankonNil007)
